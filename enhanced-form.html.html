@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 Form Example</title>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Our Web Page</h1>
+  <p>This page demonstrates lists, tables, media, and a fully functional HTML5 form.</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Features List</h2>
+    <ul>
+      <li>Responsive layout</li>
+      <li>Accessible form elements</li>
+      <li>Media embedding</li>
+      <li>HTML5 validation</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Sample Table</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Role</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alice</td>
+          <td>Designer</td>
+          <td>alice@example.com</td>
+        </tr>
+        <tr>
+          <td>Bob</td>
+          <td>Developer</td>
+          <td>bob@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Media Section</h2>
+    <p>Here is an embedded audio example:</p>
+    <audio controls>
+      <source src="sample-audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <section>
+    <h2>Registration Form</h2>
+    <form>
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required autocomplete="name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required autocomplete="email">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="1" max="120" placeholder="Enter your age" required>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select your gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="bio">Short Bio:</label>
+      <textarea id="bio" name="bio" rows="4" placeholder="Tell us about yourself"></textarea>
+
+      <label for="username">Username (readonly example):</label>
+      <input type="text" id="username" name="username" value="user123" readonly>
+
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 Example Company. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
