@@ -1,0 +1,21 @@
+.bg-success{
+	background: linear-gradient(45deg,darkslategray,green);
+}
+.btn-teal{
+	background: linear-gradient(45deg,darkslategray,green);
+	box-shadow: 0 5px 5px green;
+}
+html{
+	scroll-behavior: smooth;
+}
+@media (max-width: 576px) {
+	.carousel-caption{
+		bottom: 20px;
+	}
+	.carousel-caption h5{
+		font-sixe: 30px;
+	}
+	.carousel-caption p{
+		display: none;
+	}
+}
